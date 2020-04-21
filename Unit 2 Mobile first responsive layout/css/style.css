@@ -8,6 +8,7 @@
   }
   
   body {
+    background-color: #f6f6f6;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
         line-height: 1.6;
     color: black;
@@ -27,11 +28,17 @@
   
   }
 
+h2 {
+
+text-align: center;
+  }
+
   p {
 
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 color: black; 
 font-size: 30px;
+padding: 10px;
 
   }
 
@@ -48,7 +55,7 @@ background-color: white;
 text-align: center;
 margin-top: 10px;
 margin-bottom: 10px;
-border-color: lightgray 4px solid;
+
 
   }
 
@@ -83,6 +90,30 @@ padding: 15px;
 display: block;
 
   }
+ 
+
+  .image {
+    width: 100%;
+    padding: 10px;
+  }
+
+.container {
+  margin: 20px ;
+}
+
+.main-footer a:hover {
+
+color: blue;
+
+}
+.primary,
+.secondary,
+.tertiary {
+
+padding-top: 10px;
+
+}
+
   
   /* ---- Layout Containers ---- */
   
@@ -93,21 +124,14 @@ display: block;
     
     }
     
-    .banner,
+  
     .main-footer  {
-    
     text-align: center;
-    
     }
-    
-    .banner{
-      color: #fff;
-      background: #3acec2;
-      padding: 3.2em 0px;
-    }
-    
+
+  
+      
     .col {
-    
     padding-right: 1em;
      padding-left: 1em;
     }
@@ -132,67 +156,42 @@ Media Queries
   @media (min-width: 769px) {
    
    .container {
-  
    width: 90%;
-  margin: 0, auto;
-  
-  }
-
-  .name,
-  .col {
-  
+}
+ .name,
+ .col
+{
   float: left;
- 
-    
-  }
-  
+}
+
   .primary,
-  .secondary {
-  
-  width: 50%;
+  .secondary,
+  .tertiary{
+    width: 50%;
   }
   
   .main-nav {
-  
-  float: right;
+    float: right;
   }
   
   .main-nav li {
   display: inline-block;
   margin-left: 15px;
-  
   }
-  
-  .tagline {
-  
-  font-size: 4em;
-    
-  }
-  
-  
+
   }
   
   @media (min-width: 1025px) {
 
-
 .container {
-
 width:80%;
-max-width: 1150px; 
-
+max-width: 1150px;
 }
 
-.primary {
-
-width: 33.3%;
-
-}
-
+.primary,
 .secondary,
-.tertiary{
-
+.tertiary {
 width: 33.3%;
-
 }
 }
 
@@ -204,5 +203,3 @@ width: 33.3%;
   display: table;
   clear: both;
 }
-
-
