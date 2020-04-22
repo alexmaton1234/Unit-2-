@@ -253,7 +253,7 @@ Base Element Styles
   .tertiary {
   width: 33.3%;
   }
-  }
+  
   
   .main-footer
    {
@@ -268,7 +268,7 @@ Base Element Styles
   .main-footer .main-nav {
    display: block; 
   }
-  
+}
   /* ---- Clearfix ---- */
   .clearfix::after {
   
