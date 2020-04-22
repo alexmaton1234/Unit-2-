@@ -137,6 +137,10 @@ Base Element Styles
   padding-top: 10px;
   }
   
+  .main-footer .main-nav {
+
+  display: none;  
+  }
 
   
   /* ---- Layout Containers ---- */
