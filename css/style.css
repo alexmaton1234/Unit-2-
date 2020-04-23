@@ -131,6 +131,7 @@ Base Element Styles
   font-weight: bold;
   padding-top: 20px;
   width: 100%;
+
   }
   
   .main {
@@ -179,7 +180,6 @@ Base Element Styles
 }
 
 
-
   
   
   /* ---- Page Elements ---- */
@@ -191,6 +191,9 @@ Base Element Styles
   
   @media (min-width: 769px) {
   
+ .col {
+      height: 475px;
+    }
   .container {
   width: 90%;
   }
@@ -236,7 +239,7 @@ Base Element Styles
   .main-footer {
   display: block;
     float: right;
-    margin: 0 auto;
+    margin: 5px auto;
   }
   
   }
@@ -258,6 +261,7 @@ Base Element Styles
   .main-footer
    {
   width: 100%;
+  margin-top: 0 auto;
   }
   
   .main-footer-p {
