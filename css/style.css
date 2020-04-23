@@ -262,7 +262,7 @@ padding-right: 20%;
   }
   .skills {
     display: block ;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     font-size: 20px;
     }
@@ -299,10 +299,11 @@ padding-right: 20%;
    display: block; 
   }
   .skills {
-    width: 50%;
-    margin: 0 auto;
-    }
-    
+     display: block ;
+      width: 70%;
+      margin: 0 auto;
+      font-size: 20px;
+      }
 }
   /* ---- Clearfix ---- */
   .clearfix::after {
