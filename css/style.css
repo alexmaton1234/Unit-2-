@@ -44,6 +44,9 @@ Base Element Styles
   padding: 10px;
   
   }
+  img {
+    max-width: 100%;
+  }
     
   
   /* ================================= 
@@ -83,6 +86,23 @@ Base Element Styles
   Base Layout Styles
   ==================================== */
   
+  .skills li
+  {
+
+border: 1px solid darkblue;
+background-color: lightgrey;
+list-style-type: none;
+display: block;
+width: 100%;
+padding-left: 20%;
+padding-right: 20%;
+  }
+
+  .skills h1{
+    padding-top: 10px;
+    text-align: center;
+  }
+
   .name a,
   .main-nav a {
   
@@ -129,8 +149,9 @@ Base Element Styles
   text-align: center;
   display:inline-block;
   font-weight: bold;
-  padding-top: 20px;
+  padding-top: 40px;
   width: 100%;
+ text-decoration: underline;
 
   }
   
@@ -164,7 +185,7 @@ Base Element Styles
   }
   .main-footer-p {
   
-    width: 1000%;
+    width: 100%;
     margin: 0 auto;
     padding-left: 10px;
     padding-right: 10px;
@@ -180,6 +201,7 @@ Base Element Styles
 }
 
 
+
   
   
   /* ---- Page Elements ---- */
@@ -189,11 +211,8 @@ Base Element Styles
   Media Queries
   ==================================== */
   
-  @media (min-width: 769px) {
-  
- .col {
-      height: 475px;
-    }
+  @media (min-width: 768px) {
+
   .container {
   width: 90%;
   }
@@ -241,10 +260,17 @@ Base Element Styles
     float: right;
     margin: 5px auto;
   }
+  .skills {
+    display: block ;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 20px;
+    }
+    
   
   }
   
-  @media (min-width: 1025px) {
+  @media (min-width: 1024px) {
   
   .container {
   width:80%;
@@ -261,7 +287,7 @@ Base Element Styles
   .main-footer
    {
   width: 100%;
-  margin-top: 0 auto;
+
   }
   
   .main-footer-p {
@@ -272,6 +298,11 @@ Base Element Styles
   .main-footer .main-nav {
    display: block; 
   }
+  .skills {
+    width: 50%;
+    margin: 0 auto;
+    }
+    
 }
   /* ---- Clearfix ---- */
   .clearfix::after {
