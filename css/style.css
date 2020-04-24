@@ -8,15 +8,15 @@ Base Element Styles
   }
   
   body {
-  background-color: lightgray;
+  background-color: rgb(250, 250, 250);
   font-family:'Chivo';
   line-height: 1.6;
-  color: rgb(116, 114, 114);
+  color: darkgray;
   
   
   }
   a { 
-  color:rgb(116, 114, 114);
+  color:darkgrey;
   font-family:'Chivo';
   text-decoration: none;
   }
@@ -26,6 +26,7 @@ Base Element Styles
   margin-top: 0;
   font-family:'Chivo';
   
+  
   }
   
   h2 {
@@ -33,12 +34,13 @@ Base Element Styles
   text-align: center; 
   padding-top: 10px;
   font-family:'Chivo';
+  color: darkgray;
   }
   
   p {
   
   font-family:'Anton';
-  color:rgb(116, 114, 114);
+  color: darkgray;
   font-size: 20px;
   text-align: center;
   padding: 10px;
@@ -89,8 +91,8 @@ Base Element Styles
   .skills li
   {
 
-border: 1px solid darkblue;
-background-color: lightgrey;
+border: 1px solid darkslategrey;
+background-color: lightgray;
 list-style-type: none;
 display: block;
 width: 100%;
@@ -145,7 +147,7 @@ padding-right: 20%;
   
   .portfolio {
   font-size: 35px;
-  color: rgb(116, 114, 114);
+  color: darkgray;
   text-align: center;
   display:inline-block;
   font-weight: bold;
@@ -183,7 +185,7 @@ padding-right: 20%;
   }
   
   .main-footer {
-  background-color: rgb(224, 221, 221);
+  background-color: rgb(250, 250, 250);
   margin-top: 30px;
 
   }
@@ -255,8 +257,7 @@ margin-left: auto;
  
   display: block;
  text-align: center;
- float:left auto;
- padding-bottom: 10px;
+  padding-bottom: 10px;
   
   
  
