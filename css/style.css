@@ -8,15 +8,15 @@ Base Element Styles
   }
   
   body {
-  background-color: #fffafa;
+  background-color: lightgray;
   font-family:'Chivo';
   line-height: 1.6;
-  color: black;
+  color: rgb(116, 114, 114);
   
   
   }
   a { 
-  color:black;
+  color:rgb(116, 114, 114);
   font-family:'Chivo';
   text-decoration: none;
   }
@@ -37,8 +37,8 @@ Base Element Styles
   
   p {
   
-  font-family:'Chivo';
-  color: black; 
+  font-family:'Anton';
+  color:rgb(116, 114, 114);
   font-size: 20px;
   text-align: center;
   padding: 10px;
@@ -145,7 +145,7 @@ padding-right: 20%;
   
   .portfolio {
   font-size: 35px;
-  color: grey;
+  color: rgb(116, 114, 114);
   text-align: center;
   display:inline-block;
   font-weight: bold;
