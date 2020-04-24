@@ -311,8 +311,7 @@ margin-left: auto;
   .main-footer
    {
    display: block;
- 
-  width: 100%;
+   width: 100%;
   
   }
   .main-footer-p {
@@ -320,18 +319,20 @@ margin-left: auto;
   width: 60%;
   margin: 0 auto;
   }
-  .main-nav {
-  display: block;
-  
-text-align: center;
-  }
+
   .skills {
      display: block ;
       width: 70%;
       margin: 0 auto;
       font-size: 20px;
       }
+
+.alex, 
+footer .main-nav {
+display: inline-block;
 }
+
+  }
   /* ---- Clearfix ---- */
   .clearfix::after {
   
