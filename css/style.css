@@ -327,10 +327,13 @@ margin-left: auto;
       font-size: 20px;
       }
 
-.alex, 
-footer .main-nav {
-display: inline-block;
-}
+      .main-footer .main-nav {
+        display: inline-block;
+    }
+  .alex {
+
+  display: inline-block;  
+  }
 
   }
   /* ---- Clearfix ---- */
