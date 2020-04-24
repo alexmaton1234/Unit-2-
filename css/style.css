@@ -39,7 +39,7 @@ Base Element Styles
   
   p {
   
-  font-family:'Anton';
+  font-family:'Alef';
   color: darkgray;
   font-size: 20px;
   text-align: center;
@@ -69,7 +69,7 @@ Base Element Styles
   
   .main-nav {
   margin-top: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Alef';
   
   }
   .name a {
