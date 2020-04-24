@@ -223,6 +223,21 @@ margin-left: auto;
   
   @media (min-width: 768px) {
 
+    .back {
+      display: none;
+    }
+    .alex {
+      float: left;
+      line-height: 3;
+      padding: 0;
+      margin: 0;
+    }
+    footer .main-nav {
+      float: right;
+      padding: 0;
+      margin: 0;
+    }
+
   .container {
   width: 90%;
   }
